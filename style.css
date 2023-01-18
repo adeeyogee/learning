@@ -1,0 +1,31 @@
+/* 
+.fa-solid.fa-magnifying-glass {
+    font-size: 50px;
+}
+
+body {
+    color: #3ab05a;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+hr {
+    clear: both;
+} */
+
+.one {
+    background: #21cd27;
+}
+
+.two {
+    color: blue;
+
+}
+
+.three {
+    border: 2px solid black;
+}
