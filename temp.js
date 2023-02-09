@@ -18,38 +18,8 @@
 //_______________________________________________
 
 // const b = [4, 10, 14, 25, 25, 50]
-const d = [15, 26, 10, 23, 85]
+const tempNums = [1, 6, 1, 3, 5,12]
 // const array1 = [5, 'abc', 10, 1]
 // const array2 = [5, 'abc', 10,]
-
-
-
-
-function User(defaultName) {
-  let _name = defaultName
-
-  return {
-      getName () {
-          return _name
-      },
-
-      setName (n) {
-          return _name = n
-      }
-  }
-}
-
-const user = User('Dmitry')
-
-console.log(user) 
-// Если мы просто обратимся к функции, то увидим там 2 метода. Поле переменная name будет нам недоступна
-
-console.log(user.getName()) 
-// Если обратимся непосредственно к методу, то увидим значение переменной name.
-//! Т.е. мы сами определили метод, который будет взаимодействовать с переменной. А могли этого и не делать, чтобы полностью защитить name
-
-
-user.setName('changeName') // Также, мы добавили метод, который позволяет менять значение переменной. 
-console.log(user.getName())
-
+const tempAr = [2,3,4,[4, 111, 4], 6,7]
 

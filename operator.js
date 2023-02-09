@@ -15,7 +15,7 @@
 
 
 // ВОЗВРАТ ТИПА ДАННЫХ
-//____________bn()
+____________bn()
 // - undefined - undefined
 // - 
 // - infinity - number
