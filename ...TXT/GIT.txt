@@ -1,0 +1,14 @@
+
+если после git config -l показывает
+remote.origin.url=git@github.com:login/репозиторий
+нужно изменить адрес таким способом
+git config remote.origin.url https://github.com/_login_/репозиторий
+после этого git push -u -f origin master
+и у меня всё заработало
+
+
+1) git init
+2) git config --global user.name "adeeyogee"
+3) git config --global e.mail "adeeyogee@gmail.com"
+4) git branch -m master main
+5) git add -A

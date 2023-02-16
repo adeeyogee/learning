@@ -80,12 +80,12 @@ _____________________*/
 // DATES
 //Начало unix time - 1.01.1970 - дата появления интернета
 
-
+//для создания даты используют синтаксис new Date()
 const setDate = new Date(1 * 24 * 60 * 60 * 1000) // Получаем начало unix time
-// console.log(setDate)
+ console.log(setDate)
 
 
-//* Методы вызова даты и времени
+//@ Методы вызова даты и времени
 
 const futureDate = new Date (2290, 1, 14, 11, 24, 44) // Получаем дату в будущем
  //                          ↑г,   ↑м, ↑д, ↑ч,↑м, ↑с  Месяцы начинаются с 0 
@@ -102,5 +102,5 @@ const futureDate = new Date (2290, 1, 14, 11, 24, 44) // Получаем дат
 console.log(futureDate.setMonth(4)) //
 
 // // timestamp - количество миллисекунд, которое прошло с начала unix time
-// console.log(futureDate.getTime()) // количество миллисекунд, которое прошло с начала unix time
+//* console.log(futureDate.getTime()) // количество миллисекунд, которое прошло с начала unix time
 

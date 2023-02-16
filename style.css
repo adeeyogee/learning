@@ -7,8 +7,6 @@ body {
     color: #3ab05a;
 }
 
-
-
 .text-center {
     text-align: center;
 }
@@ -17,15 +15,29 @@ hr {
     clear: both;
 } */
 
-.one {
-    background: #21cd27;
+.main {
+    width: 450px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
-.two {
-    color: blue;
-
+.color {
+    display: flex;
+    justify-content:center;
+    background-color: rgb(226, 87, 87);
+    height: 100px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.three {
-    border: 2px solid black;
+.btn2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 30px;
+    width: 70px;
+    color: rgb(174, 16, 210)
 }
