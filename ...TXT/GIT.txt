@@ -6,9 +6,15 @@ git config remote.origin.url https://github.com/_login_/репозиторий
 после этого git push -u -f origin master
 и у меня всё заработало
 
+выйти из git config -l можно с помощью :q
+
 
 1) git init
 2) git config --global user.name "adeeyogee"
 3) git config --global e.mail "adeeyogee@gmail.com"
 4) git branch -m master main
 5) git add -A
+6) git commit -m "message"
+7) git push -u origin main
+
+git rm * - удаление файла из репозитория и индекса
