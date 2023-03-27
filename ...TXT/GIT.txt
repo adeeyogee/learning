@@ -18,3 +18,9 @@ git config remote.origin.url https://github.com/_login_/репозиторий
 7) git push -u origin main
 
 git rm * - удаление файла из репозитория и индекса
+
+
+Если понадобиться остановить слежение за файлом и оставить его на жестком диске
+    git rm --cached file
+Или прекратить слежение за папкой
+    git rm -r --cached folder
