@@ -1,5 +1,8 @@
 desktop.ini
 /.vscode
+/.node_modules
 style.css
 index.html
 temp.js
+package-lock.json
+package.json
